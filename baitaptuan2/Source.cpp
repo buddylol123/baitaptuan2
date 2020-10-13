@@ -22,3 +22,7 @@ float phepToanCoBan(float a, float b)
 	}
 	return 1;
 }
+int trurandom(int a, int b)
+{
+	return a - b;
+}
