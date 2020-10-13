@@ -12,7 +12,7 @@ float phepToanCoBan(float a, float b)
 	switch (chon)
 	{
 	case 1:
-			cout << a + b << endl;
+			cout << a + b << endl;//tong cong
 	case 2:
 			cout << a - b << endl;
 	case 3:
