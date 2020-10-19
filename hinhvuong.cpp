@@ -1,28 +1,16 @@
-#include "Header.h"
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a, i, j;
+    cout << "Ban hay nhap do dai canh : ";
+    cin >> a;
+    for (i = 1; i <= a; i++)
+    {
+        for (j = 1; j <= a; j++)
+            cout << "*  ";  //luu y,co mot khoang trong o day
+        cout << "\n";
+    }
+    system("pause");
 
-float phepToanCoBan(float a, float b)
-{
-	int chon;
-	cout << "Nhap a: ";
-	cin >> a;
-	cout << "Nhap b: ";
-	cin >> b;
-	cout << "Chon cong thuc: ";
-	cin >> chon;
-	switch (chon)
-	{
-	case 1:
-			cout << a + b << endl;//tong cong
-	case 2:
-			cout << a - b << endl;
-	case 3:
-			cout << a * b << endl;
-	case 4:
-			cout << a / b << endl;
-	}
-	return 1;
-}
-int trurandom(int a, int b)
-{
-	return a - b;
 }
